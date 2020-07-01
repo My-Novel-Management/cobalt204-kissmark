@@ -6,10 +6,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.0.0] - 2020-07-01
+### Added
+- Old book
+
 ## [0.0.1] - 2020-07-01
 ### Added
 - This CHANGELOG file to hopefully serve as an evolving example of a standardized open source project CHANGELOG.
 - README one line implemented.
 
-[Unreleased]: https://github.com/My-Novel-Management/cobalt204-kissmark/compare/v0.0.1...HEAD
+[Unreleased]: https://github.com/My-Novel-Management/cobalt204-kissmark/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/My-Novel-Management/cobalt204-kissmark/releases/v1.0.0
 [0.0.1]: https://github.com/My-Novel-Management/cobalt204-kissmark/releases/v0.0.1
