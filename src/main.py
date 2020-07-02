@@ -27,12 +27,13 @@ from scenes import Apart
 # Constant
 TITLE = "キスマーク"
 OUTLINE = "コバルト短編小説新人賞２０４回もう一歩作品"
-MAJOR, MINOR, MICRO = 1, 0, 0
+MAJOR, MINOR, MICRO = 1, 1, 0
 
 
 # Episodes
 def ep_intro(w: World):
     return w.episode("冒頭",
+            w.symbol("１"),
             Apart.dislike(w),
             )
 
@@ -44,11 +45,13 @@ def ep_ramen(w: World):
 
 def ep_oldstory(w: World):
     return w.episode("昔話",
+            w.symbol("２"),
             Apart.oldtalk(w),
             )
 
 def ep_univ(w: World):
     return w.episode("大学生",
+            w.symbol("３"),
             Apart.goto_univ(w),
             )
 
